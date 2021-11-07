@@ -31,14 +31,15 @@ The results of the congressional election were calculated using loops to identif
 
 To illustrate how the use of PyPoll for the evaluation of voting results, this section looks at the key elements that were incorporated into the program that is being proposed. To organize the data for analysis, variables for the values to be summarized were characterized as lists and dictionaries as needed to store and organize the data as it is being compiled.
 
-![Coding image for variable identification]"Resources/Code_County_Variables.png"
+<img src="Resources/Code_County_Variables.png" width="600" height="700">
 
 With the variables defined we could iterate through the election CSV file and store the voting data as the program reads each row of the data.  This allowed the data to be stored in the dictionaries where if could be accessed.
-![Coding image for CSV iteration]"Resources/Code_County_Data_Collection.png"
+
+<img src="Resources/Code_County_Data_Collection.png" width="600" height="700">
 
 Finally, the data was extracted and inserted into strings to be added to the text files and displayed within the terminal prompt.  This provides the summary that can be presented to the Elections Commission.
 
-![Coding image for data extraction]"Resources/Code_County_Data_Extract.png"
+<img src="Resources/Code_County_Data_Extract.png" width="600" height="700">
 
 ---
 ## Election - Audit Summary
@@ -60,6 +61,7 @@ By adding date and filename tags into the automated file naming of the text file
 
 In its current form, the PyPoll programs provides the summary of the overall voting for the 3 counties.  Further expansion of this analysis can include county specific results that can be used for a deeper analysis of the voting data. This added functionality will show the votes for each candidate as seen in each county in the election. This can be used to show trends within the county and provide the Elections Commission more insight into voting trends at a county level. This shows the flexibility of the program and how it can be expanded to include other functions as needed by the Elections Commission.
 
+---
 
 
 
